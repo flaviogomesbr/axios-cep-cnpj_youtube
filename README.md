@@ -7,7 +7,8 @@
 
 ## Tutorial - Axios to consume an API
 
-[Javascript ES6+: Consumindo um webservice com axios](https://www.youtube.com/watch?v=_btX8BipL1U) is a simple tutorial about Axios to consume an API from web. On this repository, we get informations about a specific CEP (Brazilian Zip Code). This is an example of the API in use: https://viacep.com.br/ws/04578910/json/
+[Javascript ES6+: Consumindo um webservice com axios](https://www.youtube.com/watch?v=_btX8BipL1U) is a simple tutorial about Axios to consume an API from web. 
+On this repository, we get informations about a specific CEP (Brazilian Zip Code) and about a specific CNPJ (Brazilian Federal Tax Identification Number). This is examples of the API in use: https://viacep.com.br/ws/04578910/json/ and https://www.receitaws.com.br/v1/cnpj/06990590000123
 
 ## Description
 
@@ -23,6 +24,7 @@ $ npm install axios
 ## Running the app
 
 ```bash
-# development
-$ node main
+$ node cep
+# or
+$ node cnpj
 ```
