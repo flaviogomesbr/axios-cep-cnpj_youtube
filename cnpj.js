@@ -3,12 +3,12 @@ import axios from 'axios';
 class Api {
 
     static async  getInformation (cnpj){
-        const response = new Tabela((await axios.get(`https://www.receitaws.com.br/v1/cnpj/${cnpj}`)).data);
+        const response = new Table((await axios.get(`https://www.receitaws.com.br/v1/cnpj/${cnpj}`)).data);
         return response;
     }
 }
 
-class Tabela{
+class Table{
     constructor({cnpj, nome , fantasia, email, telefone, qsa, cep, uf, municipio, bairro, logradouro, numero, complemento }){
         
         //TABELA UM//
